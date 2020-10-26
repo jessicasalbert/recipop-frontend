@@ -1,0 +1,59 @@
+:root {
+    --font1: 'Montserrat', sans-serif;
+    --font2: 'Varela', sans-serif;
+}
+
+.form-wrapper {
+    /* display: flex; */
+    justify-content: center;
+    width: 100%;
+    /* height: 100vh; */
+    display: grid;
+
+}
+
+
+#login {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#name-input {
+    margin-top: 15px;
+    width: 400px;
+    height: 40px;
+    margin-bottom: 35px;
+    
+}
+
+.input-name {
+    animation: animate__fadeInDown;
+    animation-duration: 2s;
+    margin-left: 135px;
+    font-family: var(--font1);
+}
+
+#submit-btn {
+    margin-left: 100px;
+    font-family: var(--font2);
+    height: 50px;
+    width: 192px;
+    background: none;
+    border: none;
+    background-color: #98c1d9;
+}
+
+
+.welcome-form {
+    margin: auto;
+}
+
+.search-form {
+    margin: auto;
+}
+
+#logo {
+    width: 828px;
+    height: 551px;
+}

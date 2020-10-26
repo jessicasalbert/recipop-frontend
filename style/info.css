@@ -1,0 +1,148 @@
+:root {
+    --font1: 'Montserrat', sans-serif;
+    --font2: 'Varela', sans-serif;
+}
+
+
+
+#info {
+   font-family: var(--font2)
+}
+
+.info-card {
+    overflow: scroll;
+    width: 100vw;
+    height: 100vh;
+}
+
+.header-text-wrapper {
+    justify-content: center;
+    display: grid;
+}
+
+.body-text-wrapper {
+    margin: auto;
+    text-align: center;
+    width: 80vw;
+}
+
+#region {
+    margin: auto;
+}
+
+#name {
+    font-family: var(--font1);
+    letter-spacing: 2px;
+    
+}
+
+#ingredient-title, #measurements-title, #instruction-title {
+    font-family: var(--font1);
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+
+.image {
+    margin: 40px;
+    width: 400px;
+    height: 400px;    
+}
+
+.media-wrapper {
+    display: flex;
+    justify-content: center;
+    /* margin: 50px 150px 50px 350px */
+}
+
+#instructions {
+    text-align: center;
+}
+
+#like-btn {
+    background: none;
+    border: none;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    margin: auto;
+}
+
+#like-btn svg {
+    fill: #8d99ae;
+    margin: auto;
+    width: 30px;
+    height: 30px;
+}
+
+#like-btn svg:active {
+    fill: red;
+}
+
+#comment-input {
+    width: 300px;
+    height: 30px;
+}
+
+#comment-btn {
+    height: 38px;
+    width: 308px;
+    font-family: var(--font2);
+    background-color: #98c1d9;
+    border: none;
+}
+
+.comment-wrapper {
+    margin: 65px;
+    display: flex;
+    justify-content: center;
+}
+
+#rec_vid {
+    margin-left: 25%;
+}
+
+#comment-table {
+    display: grid;
+    justify-content: center;
+}
+
+#comment-label {
+    padding: 50px 0px 48px 96px;
+    font-size: 21px;
+    font-family: var(--font1);
+}
+
+#category-label {
+    padding: 25px 0px 30px 94px;
+    font-family: var(--font2);
+    font-size: 15px;
+}
+
+#comment-td {
+    font-style: italic;
+}
+
+#comment-form-label {
+    display: flex;
+    justify-content: center;
+}
+
+tbody {
+    width: 303px;
+    /* background-color: #98c1d9; */
+    /* border: solid 3px #98c1d9; */
+}
+
+.info-comment-div {
+    background-color: #f7f7f7;
+    height: 100vh;
+}
+
+.video-wrapper {
+    margin-top: 100px;
+}
+input[type=checkbox]:checked + label {
+    color: silver;
+    font-style: italic;
+} 

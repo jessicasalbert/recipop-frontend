@@ -1,0 +1,214 @@
+:root {
+    --color1: #8d99ae;
+    --color2: #ced4da;
+    --font1: 'Montserrat', sans-serif;
+    --font2: 'Varela', sans-serif;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/* ----------------------------------NAV BAR STARTS HERE-------------------------------------- */
+
+.nav-bar {
+    top: 0;
+    position: fixed;
+    width: 100px;
+    height: 100vh;
+    /* background-color: var(--color1); */
+    background-color: #e3e3e3;
+}
+
+
+#seafood, #meat, #dessert, #vegetarian, #pasta, #starter, #fav-btn, #chicken, #search-btn {
+    width: 50px;
+    height: 50px;
+    background:none;
+    border:none;
+}
+
+#search-btn {
+    margin-top: 180px;
+}
+
+#search-btn svg {
+    width: 30px;
+    height: 30px;
+}
+
+#search-icon:hover {
+    fill: #fff;
+}
+
+#chicken svg {
+    width: 30px;
+    height: 30px;
+}
+
+#chicken svg:hover {
+    fill: #ef233c;
+}
+
+#fav-btn {
+    margin-bottom: 10px;
+}
+
+#fav-btn svg:hover {
+    fill: #f5cb5c;
+}
+
+#seafood svg {
+    width: 30px;
+    height: 30px;
+}
+
+#seafood svg:hover {
+    /* fill: white; */
+    fill: #8d99ae;
+}
+
+#meat svg {
+    width: 30px;
+    height: 30px;
+}
+
+#meat svg:hover {
+    fill: #f28482;
+}
+
+#dessert svg {
+    width: 30px;
+    height: 30px; 
+}
+
+#dessert svg:hover {
+    fill: #ffafcc;
+}
+
+#starter svg:hover {
+    fill: #f9c74f;
+}
+
+#vegetarian svg {
+    width: 30px;
+    height: 30px;  
+}
+
+#vegetarian svg:hover {
+    fill: #69ca69;
+}
+
+#pasta svg {
+    width: 30px;
+    height: 30px; 
+}
+
+#pasta svg:hover {
+    fill: #ffcb69;
+}
+
+#add-form {
+    border: none;
+    /* margin-top: 200px; */
+    margin-bottom: 200px;
+    width: 50px;
+    height: 50px;
+    /* background-color: #adbbd4; */
+    background-color: #b7b7b7;
+    border-radius: 8px;
+}
+
+#page {
+    font-family: var(--font2);
+    margin-left: -22px;
+    transform: rotate(-90deg);
+    margin-bottom: 100px;
+    margin-top: 85px;
+    /* text-align: center; */
+}
+
+
+#add-form svg {
+    width: 30px;
+    height: 30px;
+}
+
+#add-form svg:hover {
+    fill: white;
+}
+
+
+.button-wrapper {
+    display: inline-grid;
+    margin-top: 5vh;
+    margin-left: 25px;
+}
+
+
+/* ----------------------------------NAV BAR ENDS HERE-------------------------------------- */
+
+.section-container {
+    overflow: scroll;
+    top: 0;
+    left: 100px;
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background-color:white;
+}
+
+#card-container {
+    display: grid;
+    grid-gap: 25px;
+    margin-left: 200px;
+    grid-auto-columns: min-content;
+    grid-auto-rows: min-content;
+    /* grid-template-columns: repeat( auto-fit, minmax(330px, 1fr)); */
+    grid-template-rows: 0.5fr 0.5fr 0.5fr 0.5fr;
+    grid-template-areas:
+    ". . . ."
+    ". . . ."
+    ". . . ."
+    ". . . .";
+    text-align: center;
+}
+
+.image-wrapper {
+    padding: 35px 35px 0px 35px;
+}
+
+.card {
+    font-family: var(--font2);
+    margin-top: 15px;
+    justify-content: center;
+    display: grid;
+    border-radius: 15px;
+    /* margin: 15px 15px 15px 15px; */
+    /* width: 250px;
+    height: 340px; */
+    /* background-color: var(--color2) */
+}
+
+
+.card h3 {
+    text-align: center;
+}
+
+.card img {
+    border-radius: 15px;
+    width: 235px;
+    height: 235px;
+}
+
+
+.card img:hover {
+    border: solid white 2px;
+    box-shadow: 10px 10px 49px -15px rgba(0,0,0,0.75); 
+}
+
+
